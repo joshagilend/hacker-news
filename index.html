@@ -1,4 +1,26 @@
-<html>
-  <h1>index</h1>
-  <h2><blink><a href="https://hackernews.joshstroud.com/sbf-bulletproof-coffee">SBF</a></blink></h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blinking Effect</title>
+  <style>
+    .blink {
+      animation: blinkAnimation 0.1s infinite alternate;
+    }
+
+    @keyframes blinkAnimation {
+      from {
+        color: red;
+      }
+      to {
+        color: black;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Index</h1>
+  <h2><a href="https://hackernews.joshstroud.com/sbf-bulletproof-coffee" class="blink">SBF</a></h2>
+</body>
 </html>
